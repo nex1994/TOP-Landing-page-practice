@@ -119,6 +119,7 @@ header a {
 .ilustrations-text p {
     width: 300px;
     height: 150px;
+    padding-top: 15px;
     
 }
 
@@ -152,4 +153,48 @@ header a {
 .section-three i {
     font-size: 32px;
     color: #1F2937;
+}
+
+/*section four is about signing to newsletter*/
+
+.section-four {
+    height: 300px;
+}
+
+.newsletter {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 20px;
+    height: 125px;
+    border-radius: 15px;
+    margin: 150px 50px;
+    color: #F9FAF8;
+}
+
+.sign-text {
+    flex: 2;
+    text-align: start;
+    padding-left: 15px;
+}
+.sign-text h3 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.button {
+    flex: 1;
+}
+
+.button button {
+    font-size: 18px; ;
+    font-weight: normal;
+    color: #E7E5EB;
+    border-radius: 15%;
+    padding: 7px 15px;
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: #F9FAF8;
+    margin: 0 10px;
 }
